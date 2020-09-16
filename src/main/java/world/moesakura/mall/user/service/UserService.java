@@ -1,11 +1,11 @@
 package world.moesakura.mall.user.service;
 
-import world.moesakura.mall.user.model.User;
 import com.baomidou.mybatisplus.extension.service.IService;
+import world.moesakura.mall.user.model.User;
 
 /**
  * <p>
- *  服务类
+ * 服务类
  * </p>
  *
  * @author MoeSakuraW

@@ -4,14 +4,14 @@
 
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="world.moesakura.mall.user.model.User">
-        <id column="user_id" property="userId" />
-        <result column="user_name" property="userName" />
-        <result column="user_password" property="userPassword" />
-        <result column="user_email" property="userEmail" />
-        <result column="user_create_time" property="userCreateTime" />
-        <result column="user_login_time" property="userLoginTime" />
-        <result column="user_status" property="userStatus" />
-        <result column="user_role" property="userRole" />
+        <id column="user_id" property="userId"/>
+        <result column="user_name" property="userName"/>
+        <result column="user_password" property="userPassword"/>
+        <result column="user_email" property="userEmail"/>
+        <result column="user_create_time" property="userCreateTime"/>
+        <result column="user_login_time" property="userLoginTime"/>
+        <result column="user_status" property="userStatus"/>
+        <result column="user_role" property="userRole"/>
     </resultMap>
 
 </mapper>
